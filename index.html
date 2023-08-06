@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="basket.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div id="scoreboard">
+        <div>
+            <h1 class="team">HOME</h1>
+            <h1 class="score" id="home-score">0</h1>
+            <div class="pnts">
+                <button class="btn" onclick="addOneHome()">+1</button>
+                <button class="btn" onclick="addTwoHome()">+2</button>
+                <button class="btn" onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h1 class="team">GUEST</h1>
+            <h1 class="score" id="guest-score">0</h1>
+            <div class="pnts">
+                <button class="btn" onclick="addONeGuest()">+1</button>
+                <button class="btn" onclick="addTwoGuest()">+2</button>
+                <button class="btn" onclick="addThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="basket.js"></script>
+</body>
+</html>
